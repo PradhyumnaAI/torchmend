@@ -21,3 +21,6 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[project.scripts]
+torchmend = "torchmend.cli.main:main"
